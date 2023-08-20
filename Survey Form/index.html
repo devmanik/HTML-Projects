@@ -1,14 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Document</title>
+    <title>Survey Form</title>
 </head>
+
 <body>
-    <h1>
-        This is Survey Form.
-    </h1>
+    <center>
+        <div>
+            <h1>
+                <strong>Health Form</strong>
+            </h1>
+        </div>
+        <div>
+            <form>
+                <h4>
+                    <strong>Name</strong>
+                </h4>
+                <label for="firstname">First Name</label><br>
+                <input type="text" name="firstname" id="firstname"><br>
+                <label for="middlename">Middle Name</label><br>
+                <input type="text" name="middlename" id="middlename"><br>
+                <label for="lastname">Last Name</label><br>
+                <input type="text" name="lastname" id="lastname"><br>
+                <h4>
+                    <strong>
+                        Date
+                    </strong>
+                </h4>
+                <input type="time">
+                <input type="month">
+                <h4>
+                    <strong>
+                        Email
+                    </strong>
+                </h4>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" value="@gmail.com"><br>
+                <label for="">Re-Again Email</label><br>
+                <input type="email" name="email" id="email" value="@gmail.com"><br>
+                <h4>
+                    <strong>
+                        Number
+                    </strong>
+                </h4>
+                <input type="number" name="number" id="number"><br>
+                <h4>
+                    <strong>
+                        Adderess
+                    </strong>
+                </h4>
+                <label for="padderess">Permanent Adderess</label><br>
+                <input type="padderess"><br>
+                <label for="province">Province</label><br>
+                <input type="province"><br>
+                <label for="zipcode">Zip Code</label><br>
+                <input type="zipcode"><br>
+                <h4>
+                    <strong>
+                        Prefered Contacts
+                    </strong>
+                </h4>
+                <label for="email">Email</label><br>
+                <input type="checkbox"><br>
+                <label for="phonecall">Phone-Call</label><br>
+                <input type="checkbox"><br>
+                <label for="other">Other</label><br>
+                <input type="checkbox"><br>
+                <h4>
+                    <strong>
+                        Gender
+                    </strong>
+                </h4>
+                <select name="dropdown">
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                    <option value="">Custom</option>
+                </select>
+                <h4>
+                    <strong>
+                        Are u sure want to do this?
+                    </strong>
+                </h4>
+                <input type="radio">Yes</input>
+                <input type="radio">No</input>
+                <h4>
+                    <strong>
+                        Please Describe
+                    </strong>
+                </h4>
+                <textarea name="Do something! plz" cols="50" rows="10"></textarea>
+            </form>
+        </div>
+    </center>
 </body>
+
 </html>
