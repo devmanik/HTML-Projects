@@ -1,0 +1,109 @@
+:root {
+    --raaaaaaatoocolor: rgb(216, 49, 49);
+    --kaaaaaalocolor: rgb(0, 0, 0);
+    --headlinefont: 40px;
+}
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.GjR {
+    fill: var(--raaaaaaatoocolor);
+}
+
+.navbar_landing_page {
+    margin: 11px;
+    display: flex;
+    padding: 5px 15px 5px 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar_link_page ul{
+    display: flex;
+    gap: 30px;
+}
+
+.navbar_link_page ul li {
+    list-style: none;
+}
+
+.text {
+    font-size: 15px;
+    padding: 17px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+.text_2 {
+    color: #000000;
+    text-decoration: none;
+}
+
+.search_box {
+    width: 890px;
+    height: 27px;
+    display: flex;
+    padding: 10px;
+    border-radius: 30px;
+    align-items: center;
+    background-color: #e2e2e2;
+}
+
+.search_box > i {
+    padding-left: 10px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.search_box > input {
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+#search_button {
+    width: 20px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: #e2e2e2;
+}
+
+.only_icon {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.x_icon {
+    gap: 30px;
+    display: flex;
+}
+
+.profile {
+    gap: 30px;
+    display: flex;
+}
+
+#drop_down {
+    padding: 5px 0px 5px 0px;
+}
+
+.icon {
+    color: #e2e2e2;
+}
