@@ -1,0 +1,29 @@
+* {
+margin: 0;
+padding: 0;
+}
+.container {
+    border: 1px solid rgb(187, 41, 41);
+    height: 500px;
+    width: 650px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /*flex-wrap: nowrap;*/
+}
+
+.first_col {
+    display: flex;
+}
+
+.last_col {
+    display: flex;
+}
+
+.items {
+    border: 1px solid rgb(0, 0, 0);
+    width: 80px;
+    height: 80px;
+}

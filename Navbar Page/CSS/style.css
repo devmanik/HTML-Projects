@@ -31,9 +31,8 @@
 }
 
 .text_box {
-  position: absolute;
-  top: 50%;
-  text-align: center;
-  width: 100%;
-  /* left: 50%; */
+    top: 50%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
 }

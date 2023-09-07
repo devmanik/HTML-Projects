@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.pro_nav_head {
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span a {
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav_list ul {
+    display: flex;}
+
+.nav_list ul li {
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    list-style: none;
+}
+
+.nav_list ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button_1 {
+    padding: 1rem 1rem 1rem 1rem;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.5vw;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    background-color: #eeeeee;
+}
+
+.button_2 {
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5vw;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    background-color: black;
+}
+
+.button_1:hover {
+    box-shadow: 0px 0px 25px -15px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 25px -15px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 0px 25px -15px rgba(0, 0, 0, 1);
+}
+
+.button_2:hover {
+    box-shadow: 0px 0px 25px -15px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 25px -15px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 0px 25px -15px rgba(0, 0, 0, 1);
+}
+
+.second_box {
+    padding-bottom: 1rem;
+}
+
+.second_box_nav_head ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
